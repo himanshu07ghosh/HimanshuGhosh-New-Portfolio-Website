@@ -11,15 +11,9 @@ const SOCIALS = [
   { icon: Linkedin, href: "https://linkedin.com/in/himanshu-ghosh", label: "LinkedIn" },
   { icon: Github, href: "https://github.com/himanshu07ghosh", label: "GitHub" },
   { icon: Mail, href: GMAIL_COMPOSE_URL, label: "Email" },
-
-  // 👇 Replace these placeholder URLs with your real profile links.
   { icon: Instagram, href: "https://www.instagram.com/himanshu_ghosh_/", label: "Instagram" },
   { icon: Facebook, href: "https://www.facebook.com/profile.php?id=100082314949941", label: "Facebook" },
-
-  // WhatsApp — uses your resume number. Format: https://wa.me/<countrycode><number>
-  { icon: MessageCircle, href: "https://wa.me/+917906350740", label: "WhatsApp" },
-
-  
+  { icon: MessageCircle, href: "https://wa.me/917906350740", label: "WhatsApp" },
 ];
 
 export default function SocialIcons() {
