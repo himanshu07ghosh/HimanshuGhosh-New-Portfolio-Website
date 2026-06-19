@@ -7,12 +7,12 @@ import { Award, GraduationCap, Trophy, Code2 } from "lucide-react";
 const ACHIEVEMENTS = [
   {
     icon: Award,
-    title: "Best Intern Award",
+    title: "Best FrontEnd DeveloperIntern Award",
     detail: "CodeAlpha IT Services, Nov 2024",
   },
   {
     icon: Trophy,
-    title: "Multiple SDE Offers",
+    title: "Multiple SDE Internship Offers",
     detail: "HCL TechBee, Zoho, AcmeGrade",
   },
   {
@@ -22,7 +22,7 @@ const ACHIEVEMENTS = [
   },
   {
     icon: GraduationCap,
-    title: "45+ DSA Problems",
+    title: "85+ DSA Problems",
     detail: "Solved on LeetCode & GFG",
   },
 ];
