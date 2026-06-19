@@ -18,7 +18,7 @@ export default function SocialIcons() {
   return (
     <div className="flex items-center gap-3">
       {SOCIALS.map(({ icon: Icon, href, label }) => (
-        
+        <a
           key={label}
           href={href}
           target={href.startsWith("http") ? "_blank" : undefined}
