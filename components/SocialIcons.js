@@ -2,8 +2,6 @@
 
 import { Linkedin, Github, Mail, Instagram, Facebook, MessageCircle } from "lucide-react";
 
-// Gmail compose URL — opens Gmail directly (web or app) instead of
-// whatever the device's default mail client happens to be.
 const GMAIL_COMPOSE_URL =
   "https://mail.google.com/mail/?view=cm&fs=1&to=himanshu07ghosh@gmail.com";
 
