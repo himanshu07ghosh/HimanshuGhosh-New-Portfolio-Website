@@ -35,8 +35,6 @@ const PROJECTS = [
     accuracy: "OOP architecture",
     Icon: AppWindow,
     gradient: "from-signal2/35 to-amber/20",
-    github: "https://github.com/himanshu07ghosh",
-    demo: "https://github.com/himanshu07ghosh",
   },
 ];
 
