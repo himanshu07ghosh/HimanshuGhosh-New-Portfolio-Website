@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BrainCircuit, Wallet, AppWindow,ChartCandlestick, Newspaper, Sun } from "lucide-react";
+import { BrainCircuit, Wallet, TrendingUp, Newspaper, Sun } from "lucide-react";
 import ProjectCard from "./ProjectCard";
 
 const PROJECTS = [
@@ -55,7 +55,7 @@ const PROJECTS = [
       "Analyses the trades using the historical_data.csv file and generates the average P&L and important market analytics.",
     tech: ["HTML", "CSS", "JavaScript", "CSV Processing"],
     accuracy: "Depends on Sample data attached",
-    Icon: ChartCandlestick,
+    Icon: TrendingUp,
     gradient: "from-green/35 to-cyan/25",
     github: "https://github.com/himanshu07ghosh/prime-trade-dashboard/tree/main",
     demo: "https://prime-trade-dashboard-one.vercel.app/",
