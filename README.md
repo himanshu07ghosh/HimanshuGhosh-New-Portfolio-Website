@@ -5,8 +5,8 @@ A premium, dark, developer-themed portfolio built with **Next.js (App Router)**,
 animations, an animated timeline, 3D-tilt project cards, and a working
 contact form.
 
-# Live Portfolio Link :-
-## Link - https://himanshu-ghosh-portfolio.vercel.app/
+## Live Portfolio Link :-
+### Link - https://himanshu-ghosh-portfolio.vercel.app/
 ---
 
 ## 1. Folder structure
