@@ -32,7 +32,7 @@ const PROJECTS = [
     description:
       "📰 Global News Hub - Real-time news from trusted sources worldwide. Features include live headlines, weather widget, location detection, bookmarks, dark/light theme, and category filtering.",
     tech: ["HTML", "CSS", "JavaScript", "React", "GNews API"],
-    accuracy: "100% (GNews API Integration "",
+    accuracy: "100% (GNews API Integration)",
     Icon: Newspaper,
     gradient: "from-cyan/35 to-signal/25",
     github: "https://github.com/himanshu07ghosh/global-news-hub-webapp",
