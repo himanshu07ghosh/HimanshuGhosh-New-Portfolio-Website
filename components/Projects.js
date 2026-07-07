@@ -63,6 +63,7 @@ const PROJECTS = [
 
 ];
 
+
 export default function Projects() {
   return (
     <section id="projects" className="relative px-6 py-28">
