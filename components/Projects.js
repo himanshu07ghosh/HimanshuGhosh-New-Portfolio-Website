@@ -31,8 +31,8 @@ const PROJECTS = [
     name: "Global News Hub",
     description:
       "📰 Global News Hub - Real-time news from trusted sources worldwide. Features include live headlines, weather widget, location detection, bookmarks, dark/light theme, and category filtering.",
-    tech: ["100% (GNews API Integration "],
-    accuracy: "",
+    tech: ["HTML", "CSS", "JavaScript", "React", "GNews API"],
+    accuracy: "100% (GNews API Integration "",
     Icon: Newspaper,
     gradient: "from-cyan/35 to-signal/25",
     github: "https://github.com/himanshu07ghosh/global-news-hub-webapp",
@@ -42,7 +42,7 @@ const PROJECTS = [
     name: "Skyline Weather App",
     description:
       "A real-time weather dashboard built as an internship project. Search any city, use your current location, and see live conditions plus a 5-day forecast — default home city is Dehradun, Uttarakhand. Fully responsive for phone and laptop.",
-    tech: ["HTML", "CSS", "JavaScript"],
+    tech: ["HTML", "CSS", "JavaScript", "OpenWeather API"],
     accuracy: "80-90% Accuracy (OpenWeather API)",
     Icon: Sun,
     gradient: "from-amber/35 to-orange/25",
@@ -53,7 +53,7 @@ const PROJECTS = [
     name: "Prime Trade Analyser",
     description:
       "Analyses the trades using the historical_data.csv file and generates the average P&L and important market analytics.",
-    tech: ["HTML", "CSS", "JavaScript"],
+    tech: ["HTML", "CSS", "JavaScript", "CSV Processing"],
     accuracy: "Depends on Sample data attached",
     Icon: ChartCandlestick,
     gradient: "from-green/35 to-cyan/25",
