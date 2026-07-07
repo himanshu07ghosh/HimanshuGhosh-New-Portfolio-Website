@@ -8,7 +8,7 @@ const PROJECTS = [
   {
     name: "Emotion Detection System",
     description:
-      "End-to-end ML pipeline trained on the FER2013 dataset (35,000+ images) for real-time facial emotion classification across 4+ emotions.",
+      "End-to-end ML pipeline trained on FER2013 dataset with 35,000+ images. Real-time facial emotion classification across 4+ emotions with ~85-90% accuracy.",
     tech: ["Python", "TensorFlow", "NumPy", "Pandas", "Scikit-learn"],
     accuracy: "~85–90% accuracy",
     Icon: BrainCircuit,
@@ -19,7 +19,7 @@ const PROJECTS = [
   {
     name: "Expense Tracker Web App",
     description:
-      "Responsive expense management application used by 30+ users to track daily spending, with add/delete functionality and an intuitive UI.",
+      "Responsive expense management app used by 30+ users for daily spending tracking. Features add/delete functionality, intuitive UI, and real-time expense visualization.",
     tech: ["HTML", "CSS", "JavaScript"],
     accuracy: "100% tracking efficiency",
     Icon: Wallet,
@@ -52,7 +52,7 @@ const PROJECTS = [
   {
     name: "Prime Trade Analyser",
     description:
-      "Analyses the trades using the historical_data.csv file and generates the average P&L and important market analytics.",
+      "Trade analysis tool that processes historical_data.csv to generate average P&L and key market analytics. Helps traders make data-driven decisions with actionable insights.",
     tech: ["HTML", "CSS", "JavaScript", "CSV Processing"],
     accuracy: "Depends on Sample data attached",
     Icon: TrendingUp,
