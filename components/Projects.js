@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BrainCircuit, Wallet, AppWindow } from "lucide-react";
+import { BrainCircuit, Wallet, AppWindow,ChartCandlestick, Newspaper, Sun } from "lucide-react";
 import ProjectCard from "./ProjectCard";
 
 const PROJECTS = [
@@ -21,21 +21,46 @@ const PROJECTS = [
     description:
       "Responsive expense management application used by 30+ users to track daily spending, with add/delete functionality and an intuitive UI.",
     tech: ["HTML", "CSS", "JavaScript"],
-    accuracy: "+45% tracking efficiency",
+    accuracy: "100% tracking efficiency",
     Icon: Wallet,
     gradient: "from-cyan/35 to-signal/25",
-    github: "https://github.com/himanshu07ghosh",
-    demo: "https://github.com/himanshu07ghosh",
+    github: "https://github.com/himanshu07ghosh/Expense_Tracker_WebApp",
+    demo: "https://expense-tracker-himanshughosh.vercel.app/",
   },
   {
-    name: "Java GUI Application",
+    name: "Global News Hub",
     description:
-      "Desktop application built on core Java OOP principles — inheritance, encapsulation, and interfaces — with Python scripts for backend logic.",
-    tech: ["Java", "Swing", "Python"],
-    accuracy: "OOP architecture",
-    Icon: AppWindow,
-    gradient: "from-signal2/35 to-amber/20",
+      "📰 Global News Hub - Real-time news from trusted sources worldwide. Features include live headlines, weather widget, location detection, bookmarks, dark/light theme, and category filtering.",
+    tech: ["100% (GNews API Integration "],
+    accuracy: "",
+    Icon: Newspaper,
+    gradient: "from-cyan/35 to-signal/25",
+    github: "https://github.com/himanshu07ghosh/global-news-hub-webapp",
+    demo: "https://global-news-hub-webapp-himanshughosh.vercel.app/",
   },
+  {
+    name: "Skyline Weather App",
+    description:
+      "A real-time weather dashboard built as an internship project. Search any city, use your current location, and see live conditions plus a 5-day forecast — default home city is Dehradun, Uttarakhand. Fully responsive for phone and laptop.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    accuracy: "80-90% Accuracy (OpenWeather API)",
+    Icon: Sun,
+    gradient: "from-amber/35 to-orange/25",
+    github: "https://github.com/himanshu07ghosh/Skyline-Weather-Dashboard",
+    demo: "https://skyline-weather-app-himanshughosh.vercel.app/",
+  },
+  {
+    name: "Prime Trade Analyser",
+    description:
+      "Analyses the trades using the historical_data.csv file and generates the average P&L and important market analytics.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    accuracy: "Depends on Sample data attached",
+    Icon: ChartCandlestick,
+    gradient: "from-green/35 to-cyan/25",
+    github: "https://github.com/himanshu07ghosh/prime-trade-dashboard/tree/main",
+    demo: "https://prime-trade-dashboard-one.vercel.app/",
+  },
+
 ];
 
 export default function Projects() {
